@@ -1,0 +1,30 @@
+# Environment variables
+.env
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Patient data - NEVER upload
+*.txt
+*.pdf
+*.csv
+
+# Python cache
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Lock files
+uv.lock
+
+# OS files
+.DS_Store
+Thumbs.db
